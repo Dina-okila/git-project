@@ -1,0 +1,15 @@
+com\QA\tests\Store_API\Store_API_Base_Test.class
+com\QA\tests\User_API\User_API_Base_Test.class
+com\QA\Factory\PlaywrightFactory.class
+com\QA\tests\Travel_API\TravelTest.class
+com\QA\Endpoints\Travel_Endpoints.class
+com\QA\tests\Store_API\Store_API_Test.class
+com\QA\PayLoads\Store.class
+com\QA\routes\Routes.class
+com\QA\tests\Travel_API\Travel_API_Base_Test.class
+com\QA\Endpoints\Store_Endpoints.class
+com\QA\tests\User_API\UserTest.class
+com\QA\Utilities\ExtentReportManager.class
+com\QA\PayLoads\Travel.class
+com\QA\PayLoads\User.class
+com\QA\Endpoints\UserEndpoints.class

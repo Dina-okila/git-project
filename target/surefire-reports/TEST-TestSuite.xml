@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="24.641" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_API_PlayWright_Automation\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_API_PlayWright_Automation\target\classes;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.39.0\playwright-1.39.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.39.0\driver-1.39.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.39.0\driver-bundle-1.39.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\HP\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\HP\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire15691556313816863504\surefirebooter-20231129144835445_3.jar C:\Users\HP\AppData\Local\Temp\surefire15691556313816863504 2023-11-29T14-48-34_742-jvmRun1 surefire-20231129144835445_1tmp surefire_0-20231129144835445_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_API_PlayWright_Automation\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_API_PlayWright_Automation\target\classes;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.39.0\playwright-1.39.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.39.0\driver-1.39.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.39.0\driver-bundle-1.39.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\HP\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\HP\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_API_PlayWright_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire15691556313816863504\surefirebooter-20231129144835445_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Rest_API_PlayWright_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.4\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Android\Android Studio\bin;C:\Users\HP\.appium;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\OneDrive\Desktop\jar\sikuli1\sikuli1\libs;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Create_Order_Test" classname="com.QA.tests.Store_API.Store_API_Test" time="7.172">
+    <system-out><![CDATA[****Store PayLoad******
+{
+  "id" : 2,
+  "petId" : 7,
+  "quantity" : 3,
+  "shipDate" : "2023-11-28T08:49:56.563+0000",
+  "status" : "placed",
+  "complete" : true
+}
+[DEBUG] 2023-11-29 14:48:37.757 [main] Store_API_Test - Store API Test Started...
+[DEBUG] 2023-11-29 14:48:37.773 [main] TravelTest - Travel_Playload
+{
+  "tourist_name" : "Carolyn",
+  "tourist_email" : "myron.blick@example.com",
+  "tourist_location" : "Tallinn"
+}
+[DEBUG] 2023-11-29 14:48:37.992 [main] TravelTest - Travel_Api_Test_Started...
+[INFO ] 2023-11-29 14:48:38.023 [main] Store_API_Test - Create Order Test Started..
+200 OK
+[INFO ] 2023-11-29 14:48:45.163 [main] Store_API_Test - Create Order Test Response to be 200..
+Data ID : 2
+]]></system-out>
+  </testcase>
+  <testcase name="Get_Order_Test" classname="com.QA.tests.Store_API.Store_API_Test" time="1.985">
+    <system-out><![CDATA[[INFO ] 2023-11-29 14:48:45.195 [main] Store_API_Test - Get Order Test Started..
+200 OK
+[INFO ] 2023-11-29 14:48:47.179 [main] Store_API_Test - Get Order Test Response to be 200..
+{
+  "id" : 2,
+  "petId" : 7,
+  "quantity" : 3,
+  "shipDate" : "2023-11-28T08:49:56.563+0000",
+  "status" : "placed",
+  "complete" : true
+}
+[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Get Order Test ID Assertion passed..
+[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Get Order Test PetID Assertion passed..
+[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Get Order Test quantity Assertion passed..
+[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Get Order Test shipDate Assertion passed..
+[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Get Order Test status Assertion passed..
+[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Get Order Test complete Assertion passed..
+]]></system-out>
+  </testcase>
+  <testcase name="Delete_Order_Test" classname="com.QA.tests.Store_API.Store_API_Test" time="2.047">
+    <system-out><![CDATA[[INFO ] 2023-11-29 14:48:47.195 [main] Store_API_Test - Delete Order Test Started..
+200 OK
+[INFO ] 2023-11-29 14:48:49.242 [main] Store_API_Test - Get Order Test ID response to be 200..
+{
+  "code" : 200,
+  "type" : "unknown",
+  "message" : "2"
+}
+[INFO ] 2023-11-29 14:48:49.242 [main] Store_API_Test - Delete Order Test message Assertion passed..
+]]></system-out>
+  </testcase>
+  <testcase name="create_User_Test" classname="com.QA.tests.User_API.UserTest" time="2.031">
+    <system-out><![CDATA[------User_PayLoad_Sending-------
+{
+  "id" : 1261714285,
+  "username" : "donnie.hessel",
+  "firstName" : "Qiana",
+  "lastName" : "Bins",
+  "email" : "randall.boyer@example.com",
+  "password" : "y64tyhdt75bdo",
+  "phone" : "(813) 682-2402"
+}
+[DEBUG] 2023-11-29 14:48:49.304 [main] UserTest - User API test Started...
+[INFO ] 2023-11-29 14:48:49.304 [main] UserTest - User API create User Test Started...
+200 : OK
+[INFO ] 2023-11-29 14:48:51.335 [main] UserTest - User API create User Test Response Code to be 200...
+{
+  "code" : 200,
+  "type" : "unknown",
+  "message" : "1261714285"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="get_User_Test" classname="com.QA.tests.User_API.UserTest" time="1.984">
+    <system-out><![CDATA[[INFO ] 2023-11-29 14:48:51.351 [main] UserTest - User API Get User Test Started...
+200 : OK
+[INFO ] 2023-11-29 14:48:53.289 [main] UserTest - User API Get User Test Response to be 200...
+{
+  "id" : 1261714285,
+  "username" : "donnie.hessel",
+  "firstName" : "Qiana",
+  "lastName" : "Bins",
+  "email" : "randall.boyer@example.com",
+  "password" : "y64tyhdt75bdo",
+  "phone" : "(813) 682-2402",
+  "userStatus" : 0
+}
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test id Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test username Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test firstname Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test lastname Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test email Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test password Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test phone Assertion passed...
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test Headers validation...
+Date : Wed, 29 Nov 2023 09:18:54 GMT
+Content-Type : application/json
+Transfer-Encoding : chunked
+Connection : close
+Access-Control-Allow-Origin : *
+Access-Control-Allow-Methods : GET, POST, DELETE, PUT
+Access-Control-Allow-Headers : Content-Type, api_key, Authorization
+Server : Jetty(9.2.9.v20150224)
+[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Get User Test Headers Assertion passed...
+]]></system-out>
+  </testcase>
+  <testcase name="Update_User_Test" classname="com.QA.tests.User_API.UserTest" time="2.001">
+    <system-out><![CDATA[[INFO ] 2023-11-29 14:48:53.304 [main] UserTest - User API Update User Test Started...
+200 : OK
+{
+  "code" : 200,
+  "type" : "unknown",
+  "message" : "1261714285"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Delete_User_Test" classname="com.QA.tests.User_API.UserTest" time="1.875">
+    <system-out><![CDATA[[INFO ] 2023-11-29 14:48:55.336 [main] UserTest - User API Delete User Test Started...
+200 : OK
+[INFO ] 2023-11-29 14:48:57.211 [main] UserTest - User API Delete User Test Response code to be 200...
+[INFO ] 2023-11-29 14:48:57.211 [main] UserTest - User API Delete User Test Endend...
+]]></system-out>
+  </testcase>
+  <testcase name="Create_User_Test" classname="com.QA.tests.Travel_API.TravelTest" time="0.875">
+    <system-out><![CDATA[[DEBUG] 2023-11-29 14:48:57.742 [main] UserTest - User API test Completed...
+[INFO ] 2023-11-29 14:48:57.742 [main] TravelTest - Travel API Create User Test Started...
+[INFO ] 2023-11-29 14:48:58.601 [main] TravelTest - Travel API Create User Test Response code to be 200...
+285122
+[INFO ] 2023-11-29 14:48:58.601 [main] TravelTest - Travel API Create User Test Tourist name Assertion passed...
+[INFO ] 2023-11-29 14:48:58.601 [main] TravelTest - Travel API Create User Test Tourist email Assertion passed...
+[INFO ] 2023-11-29 14:48:58.601 [main] TravelTest - Travel API Create User Test Tourist location Assertion passed...
+]]></system-out>
+  </testcase>
+  <testcase name="get_User_Test" classname="com.QA.tests.Travel_API.TravelTest" time="0.296">
+    <system-out><![CDATA[[INFO ] 2023-11-29 14:48:58.601 [main] TravelTest - Travel API Get User Test Started...
+200
+[INFO ] 2023-11-29 14:48:58.883 [main] TravelTest - Travel API Get User Test Response status to be 200...
+{
+  "id" : 285122,
+  "tourist_name" : "Carolyn",
+  "tourist_email" : "myron.blick@example.com",
+  "tourist_location" : "Tallinn",
+  "createdat" : "2023-11-29T09:18:59.4400321"
+}
+[INFO ] 2023-11-29 14:48:58.883 [main] TravelTest - Travel API Get User Response Header Validation...
+Cache-Control : no-cache
+Pragma : no-cache
+Content-Type : application/json; charset=utf-8
+Expires : -1
+Server : Microsoft-IIS/10.0
+X-AspNet-Version : 4.0.30319
+X-Powered-By : ASP.NET
+Date : Wed, 29 Nov 2023 09:18:58 GMT
+Connection : close
+Content-Length : 151
+[INFO ] 2023-11-29 14:48:58.883 [main] TravelTest - Travel API Get User Content type Assertion passed...
+[INFO ] 2023-11-29 14:48:58.898 [main] TravelTest - Travel API Get User Tourist_name Assertion passed...
+[INFO ] 2023-11-29 14:48:58.898 [main] TravelTest - Travel API Get User Tourist_email Assertion passed...
+[INFO ] 2023-11-29 14:48:58.898 [main] TravelTest - Travel API Get User Tourist_location Assertion passed...
+]]></system-out>
+  </testcase>
+</testsuite>
